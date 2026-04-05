@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: blue;
+}
+
+/* Header */
+header {
+    background: #2e7d32;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* Dashboard */
+.dashboard {
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    flex: 1;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 30px;
+    color: #2e7d32;
+}
+
+/* Forecast Styles */
+.forecast-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.forecast-day {
+    flex: 1;
+    background: #f1f8e9;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    min-width: 85px;
+    font-size: 0.85rem;
+}
+
+/* AI */
+.ai {
+    padding: 20px;
+    background: #e8f5e9;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #43a047;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Community */
+.community {
+    padding: 20px;
+}
+
+.post {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #2e7d32;
+    color: white;
+    padding: 10px;
+}
